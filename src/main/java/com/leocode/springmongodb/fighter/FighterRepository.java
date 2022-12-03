@@ -1,6 +1,5 @@
 package com.leocode.springmongodb.fighter;
 
-import com.leocode.springmongodb.fighter.Fighter;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

@@ -17,9 +17,7 @@ import java.util.List;
 
 @SpringBootApplication
 public class SpringmongodbApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringmongodbApplication.class, args);
 	}
-
 }

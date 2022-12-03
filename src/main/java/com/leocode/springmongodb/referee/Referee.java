@@ -10,12 +10,13 @@ public class Referee {
     @Id
     private String id;
     private String name;
-    private String image;
-    private String age;
 
-    public Referee(String name, String image, String age) {
+    private String age;
+    private String image;
+
+    public Referee(String name, String age, String image) {
         this.name = name;
-        this.image = image;
         this.age = age;
+        this.image = image;
     }
 }

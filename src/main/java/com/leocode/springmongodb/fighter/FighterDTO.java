@@ -4,9 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDate;
+
 @Data
 @AllArgsConstructor
-public class Biography {
+public class FighterDTO {
+    private String name;
+    private String nickname;
+    private String weightclass;
+    private String record;
     private String status;
     private String birthplace;
     private Integer age;
@@ -16,4 +21,5 @@ public class Biography {
     private Double weight;
     private Double arm_reach;
     private Double leg_reach;
+    private String image;
 }
