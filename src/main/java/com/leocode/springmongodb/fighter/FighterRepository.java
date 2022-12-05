@@ -5,5 +5,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import java.util.Optional;
 
 public interface FighterRepository extends MongoRepository<Fighter, String> {
-    Optional<Fighter> findFighterByNickname(String nickname);
+    Optional<Fighter> findFighterByName(String name);
 }

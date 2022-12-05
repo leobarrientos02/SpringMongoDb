@@ -8,5 +8,5 @@ import lombok.Data;
 public class RefereeDTO {
     private String name;
     private String image;
-    private String age;
+    private Integer age;
 }

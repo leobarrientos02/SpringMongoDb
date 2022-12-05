@@ -2,7 +2,7 @@ package com.leocode.springmongodb.fighter;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
+import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -25,6 +25,11 @@ public class FighterController {
     @PostMapping
     public void addFighter(@RequestBody FighterDTO fighterDTO) {
         fighterService.addFighter(fighterDTO);
+    }
+
+    @PostMapping(path = "{name}")
+    public void addUfcFighter(@PathVariable String name) throws IOException {
+        fighterService.addUfcFighter(name);
     }
 
     @PutMapping(path = "{id}")
