@@ -1,7 +1,7 @@
 # SpringMongoDb
-This project was developed using the tutorial provided by AmigosCode Spring Data + MongoDB course.
+This project was developed using the tutorial provided by AmigosCode Spring Data + MongoDB course. 
 
-# Tech used
+# Tech Stack
 Docker, Java 17, MongoDB, Postgres, SpringBoot, and Maven.
 
 # Architecture Diagram
